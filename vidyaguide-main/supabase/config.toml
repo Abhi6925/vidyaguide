@@ -1,0 +1,19 @@
+project_id = "qqibgdiksmbwteihlpiu"
+
+[functions.analyze-resume]
+verify_jwt = false
+
+[functions.mentor-chat]
+verify_jwt = false
+
+[functions.generate-roadmap]
+verify_jwt = false
+
+[functions.analyze-job-match]
+verify_jwt = false
+
+[functions.roast-resume]
+verify_jwt = false
+
+[functions.extract-pdf-text]
+verify_jwt = false

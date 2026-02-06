@@ -1,0 +1,14 @@
+{
+  "tasks": {
+    "dev": "supabase start",
+    "deploy": "supabase functions deploy"
+  },
+  "imports": {
+    "std/": "https://deno.land/std@0.208.0/"
+  },
+  "compilerOptions": {
+    "lib": ["deno.window"],
+    "allowJs": true,
+    "unstable": true
+  }
+}
